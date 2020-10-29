@@ -13,6 +13,7 @@ export default class OurCourses extends Component {
       <a href="/courses.html">Our Courses</a>
     </nav>
   </header>
+  
   }
 }
 

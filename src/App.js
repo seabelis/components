@@ -2,15 +2,17 @@
 
 import React from "react";
 import "./App.css";
-import OurCourses from "./components/OurCourses"
+import AwesomeAnimals from "./components/AwesomeAnimals";
+// import OurCourses from "./components/OurCourses"
 
 function App() {
   return (
     <div className = "App">
       <main>
-        <OurCourses />
+        <AwesomeAnimals />
       </main>
     </div>
+
   )
 }  
 
