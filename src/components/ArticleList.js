@@ -30,18 +30,19 @@ export default class ArticleList extends React.Component {
     return (
       <div>
         <p>Here's a lovely list of articles, for your reading pleasure:</p>
-        <ul>
-            <li>
+        
                 {
                     this.state.articles.map((article, id) => {
                       return (
-                          <ArticleCard key={article.id} />
+                          <ArticleCard key={article.id}
+                          image={article.image}
+                          title={article.title}
+                          description={article.description} />
                           
                       )
                   })
                 }
-          </li>       
-        </ul>
+         
       </div>
     );
   }
